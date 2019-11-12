@@ -7,6 +7,7 @@ Assumptions:
 - Terraform is installed
 - AWS credentials are set (eg. via "$HOME/.aws/credentials" or Environment Variables)
 - Default VPC of AWS account used
+- Default region is "us-east-1".  To change, adjust the value in "variables.tf" or append "-var=\<region>" to terraform commands.
 
 ## Instructions
 
